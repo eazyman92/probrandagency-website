@@ -3,5 +3,5 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "scripts": { "dev": "node src/server.mjs", "build": "node src/build.mjs", "check": "node --check src/server.mjs && node --check src/build.mjs && node --check src/app.js" }
+  "scripts": { "start": "node src/server.mjs", "dev": "node src/server.mjs", "build": "node src/build.mjs", "check": "node --check src/server.mjs && node --check src/build.mjs && node --check src/app.js" }
 }
